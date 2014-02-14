@@ -1,0 +1,20 @@
+{
+    "name": "bentleysoft/rerecaptcha",
+    "description": "A wrapper for Google's reCaptcha service based on SimpleRecaptcha. Thiw works with L4.1",
+    "authors": [
+        {
+            "name": "Petros Diveris",
+            "email": "petros@diveris.org"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Bentleysoft\\Rerecaptcha": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
