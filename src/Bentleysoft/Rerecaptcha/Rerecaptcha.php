@@ -4,11 +4,10 @@ use Config, Input, Request;
 
 /**
  *
- * Laravel 4.1 Simplerecaptcha package
+ * Laravel 4.1 Rerecaptcha package
  * @version 0.0.1
  * @copyright Copyright (c) 2014 Petros Diveris
  * @author Petros Diveris (fork)
- * @author Israel Parra (original)
  * @contact petros@diveris.org
  * @link http://www.diveris.org
  * @date 2013-03-27
