@@ -1,11 +1,11 @@
-## SimpleRecaptcha for Laravel 4.1 based on Unodepiera
+## Rerecaptcha for Laravel 4.1 based on Unodepiera's SimpleRecapthca
 ## Installation
 Open your composer.json and add the next code
 ```json
 {
 	"require": {
 	    "laravel/framework": "4.1.*",
-        "bentleysoft/simplerecaptcha": "master",
+        "bentleysoft/rerecaptcha": "master",
 	},
 	"minimum-stability": "dev",
     ...
@@ -13,10 +13,10 @@ Open your composer.json and add the next code
         {
             "type": "package",
                 "package": {
-                    "name": "bentleysoft/simplerecaptcha",
+                    "name": "bentleysoft/rerecaptcha",
                     "version": "master",
                     "source": {
-                        "url": "https://github.com/pdiveris/simplerecaptcha.git",
+                        "url": "https://github.com/pdiveris/rerecaptcha.git",
                         "type": "git",
                         "reference": "master"
                     }
@@ -32,22 +32,22 @@ Find the providers key in app/config/app.php and register the Simplecart Service
 ```json
 	'providers' => array(
         //...
-        'Bentleysoft\Simplerecaptcha\SimplerecaptchaServiceProvider'
+        'Bentleysoft\Rerecaptcha\RerecaptchaServiceProvider'
     )
 ```
 Find the aliases key in app/config/app.php.
 ```json
 	'aliases' => array(
         //...
-        'Simplerecaptcha' => 'Bentleysoft\Simplerecaptcha\Facades\Simplerecaptcha',
+        'Reerecaptcha' => 'Bentleysoft\Rerecaptcha\Facades\Rerecaptcha',
     )
 ```
 
 Publish config with this command. 
 
-```$ php artisan config:publish bentleysoft/simplerecaptcha```
+```$ php artisan config:publish bentleysoft/rerecaptcha```
 
-## Example Usage SimpleRecaptcha
+## Example Usage Rerecaptcha
 
 If you need keys recaptcha api go here.
 
@@ -163,8 +163,4 @@ Route::post("check", function()
 
 * [Visit me](http://www.diveris.org)
 * [License](http://www.opensource.org/licenses/mit-license.php)
-<<<<<<< HEAD
 * [Laravel website](http://laravel.com)-
-=======
-* [Laravel website](http://laravel.com)-
->>>>>>> 94e911a87c86108542173d1fe8cecbfb57a5947f
