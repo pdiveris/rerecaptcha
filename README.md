@@ -1,4 +1,4 @@
-## Rerecaptcha for Laravel 4.1 based on Unodepiera's SimpleRecapthca
+## Rerecaptcha for Laravel 4.1 based on Unodepiera's SimpleRecaptcha
 ## Installation
 Open your composer.json and add the next code
 ```json
