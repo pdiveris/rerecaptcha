@@ -163,4 +163,8 @@ Route::post("check", function()
 
 * [Visit me](http://www.diveris.org)
 * [License](http://www.opensource.org/licenses/mit-license.php)
+<<<<<<< HEAD
 * [Laravel website](http://laravel.com)-
+=======
+* [Laravel website](http://laravel.com)-
+>>>>>>> 94e911a87c86108542173d1fe8cecbfb57a5947f
